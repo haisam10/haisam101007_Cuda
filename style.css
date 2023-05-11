@@ -1,0 +1,122 @@
+.cs-header{
+    background-color: #87509c;
+}
+.cs-nav-color{
+    background-color: #643a79;
+}
+.cs-hero-button{
+    background-color: #eb7d4b;
+    border-bottom: 3px solid #c86a40;
+    transition: 0.3s;
+}
+.cs-hero-button:hover{
+background-color: #c86a40;
+}
+.cs-section-service{
+    background-color: #17c2a4;
+    position: relative;
+}
+.cs-section-team{
+    background-color: #e7f1f8;
+    position: relative;
+}
+.cs-team-icon i{
+    color: #fff;
+    background-color: #bdd1df;
+}
+.cs-skills-area-underline{
+    position: relative;
+}
+.cs-skills-h2-color{
+    color: #3c4761;
+}
+.cs-potfo{
+    background-color: #ffdd99;
+}
+.cs-potfo div h2{
+    position: relative;
+}
+.cs-potfo-btn_1,.cs-potfo-btn_1_active:hover{
+    background-color: #ebc985;
+    transition: 0.3s;
+}
+.cs-potfo-btn_1:hover{
+    background-color: #fff;
+    color: #393939;
+}
+.cs-potfo-txt-color{
+    color: #393939;
+}
+.cs-potfo-btn_2{
+    background-color: #17c2a4;
+    border-bottom: 3px solid #14a58c;
+    color: #fff;
+    transition: 0.3s;
+}
+.cs-potfo-btn_2:hover{
+    background-color: #14a58c;
+}
+.cs-about{
+    background-color: #d74680;
+}
+.cs-about-underline{
+    position: relative;
+}
+.cs-footer{
+    background-color: #344b8e;
+}
+/* underline area */
+.cs-section-service-h1::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background-color: #14a58c;
+    position: absolute;
+    top: 145px;
+    transform: translateX(-298%);
+}
+.cs-team p::after {
+    content: "";
+    width: 43px;
+    height: 5px;
+    background-color: #c8d9e5;
+    position: absolute;
+    top: 145px;
+    transform: translateX(-579%);
+}
+.cs-skills-area-underline::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background-color: #dfe8ed;
+    position: absolute;
+    top: 100px;
+    transform: translateX(-219%);
+}
+.cs-potfo div h2::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background-color: #e5c37f;
+    position: absolute;
+    top: 100px;
+    transform: translateX(-219%);
+}
+.cs-about-underline::after {
+    content: "";
+    width: 66px;
+    height: 5px;
+    background-color: #b73c6d;
+    position: absolute;
+    top: 48px;
+    transform: translateX(-327%);
+}
+
+
+
+/* responsive DATA */
+@media only screen and (max-width: 600px){
+    *{
+        display: none;
+    }
+}
