@@ -1,6 +1,9 @@
 *{
     cursor: pointer;
 }
+.cs-header-phone-screen{
+    display: none;
+}
 .cs-header{
     background-color: #87509c;
 }
@@ -78,7 +81,7 @@ background-color: #c86a40;
     top: 145px;
     transform: translateX(-298%);
 }
-.cs-team p::after {
+.cs-team h2::after {
     content: "";
     width: 43px;
     height: 5px;
@@ -114,12 +117,76 @@ background-color: #c86a40;
     top: 48px;
     transform: translateX(-327%);
 }
-
-
+.cs-footer-phone{
+    display: none;
+}
 
 /* responsive DATA */
-@media only screen and (max-width: 600px){
-    *{
+@media only screen and (max-width: 850px){
+    .cs-header-phone-screen{
+        display: block;
+    }
+    .cs-header-phone-ul-none{
         display: none;
+    }
+    .cs-section-service-h1::after {
+        top: 80px;
+        margin: 0 auto;
+        width: 50px;
+    }
+    .cs-section-service div{
+        display: block!important;
+    }
+    .cs-section-service div{
+        padding: 5px!important;
+        margin: 0px!important;
+        width: auto!important;
+    }
+    .cs-section-team div {
+        display: block!important;
+        margin: 0!important;
+        padding: 10px!important;
+        width: auto!important;
+    }
+    .cs-team h2::after {
+        width: 50px;
+        margin: 0 auto;
+        top: 100px;
+        transform: translateX(-379%);
+    }
+    section.cs-skills-area div {
+        margin: 0 auto!important;
+        display: block!important;
+        padding: 10px!important;
+    }
+    section.cs-potfo div {
+        display: block!important;
+        margin: 0 auto!important;
+        padding: 10px!important;
+    }
+    section.cs-potfo div img {
+        width: 300px;
+    }
+    .cs-about div div {
+        display: block!important;
+        margin: 0 auto;
+        padding: 5px!important;
+    }
+    .cs-about div div div img {
+        width: 147px!important;
+    }
+    section.cs-potfo div div {
+        padding: 0 !important;
+    }
+    .cs-about-underline::after {
+        width: 50px;
+        top: 70px;
+        transform: translateX(-167%);
+    }
+    .cs-footer{
+        display: none;
+    }
+    .cs-footer-phone{
+        display: flow-root;
     }
 }
